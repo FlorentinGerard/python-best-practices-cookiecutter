@@ -25,7 +25,7 @@ python3 -m pipx ensurepath
 pipx install pipenv
 
 # Use cookiecutter to create project from this template
-pipx run cookiecutter gh:FlorentinGerard/python-best-practices-cookiecutter
+pipx run cookiecutter gh:FlorentinGerard/cookiecutter_pipenv-black-pytest-precommit
 
 # Enter project directory
 cd <repo_name>
