@@ -2,16 +2,17 @@
 
 ## Setup
 ```sh
-# Install pipenv
+# Install pipenv 
 pip install pipenv
 
-# Install dependencies
+# create virtual environment, Install dependencies
 pipenv install --dev
 
 # Setup pre-commit
 pipenv run pre-commit install
 ```
 
-You need to indicate to your IDE where the virtual env is located:
+IDE need to know where the virtual env create by pipenv is located
+Here are some links that explain how to set up pipenv interpreter
 - [VS Code](https://developpaper.com/configuring-pipenv-virtual-environment-with-python-of-vscode/)
 - [PyCharm](https://www.jetbrains.com/help/pycharm/pipenv.html)
